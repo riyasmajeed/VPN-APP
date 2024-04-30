@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vpn/view/flagurl.dart';
 import 'package:vpn/view/home%20.dart';
 import 'package:vpn/view/premium.dart';
@@ -243,10 +244,28 @@ class _BodyState extends State<Body> {
                         Icon(Icons.verified_user,color: Colors.white,size: 27,),
                           SizedBox(height: 5,),
       
-                          Text('Connected',style: TextStyle(color: Colors.white,fontSize: 18),),
+                        Text(
+  'Connected',
+  style: GoogleFonts.roboto(
+    textStyle: TextStyle(
+      color: Colors.white,
+      fontSize: 18,
+    ),
+  ),
+),
+
                            SizedBox(height: 5,),
-      
-                             Text('00:24:37',style: TextStyle(color: Colors.white,fontSize: 35,fontWeight: FontWeight.bold),),
+      Text(
+  '00:24:37',
+  style: GoogleFonts.konkhmerSleokchher(
+    textStyle: TextStyle(
+      color: Colors.white,
+      fontSize: 35,
+      fontWeight: FontWeight.bold,
+    ),
+  ),
+),
+
                         ],
                       ),
                     ),

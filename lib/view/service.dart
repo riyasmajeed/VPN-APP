@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vpn/view/body.dart';
 import 'package:vpn/view/flagurl.dart';
 
@@ -237,7 +238,12 @@ class _ServersPageState extends State<ServersPage> {
                 children: [
                   Text(
                     country,
-                    style: TextStyle(fontSize: 17, color: Color.fromARGB(225, 0, 0, 0)),
+                    style:
+                    GoogleFonts.lexend(
+textStyle: TextStyle(fontSize: 17, color: Color.fromARGB(225, 0, 0, 0),fontWeight: FontWeight.bold),
+                    )
+                    
+                    
                   ),
                   Text(
                     'IP $ipAddress',
