@@ -251,7 +251,7 @@ textStyle: TextStyle(fontSize: 17, color: Color.fromARGB(225, 0, 0, 0),fontWeigh
                   ),
                 ],
               ),
-              SizedBox(width: 60,),
+              SizedBox(width: 50,),
               Row(
                 children: [
                 Icon(icon, size: 20, color: iconColor),

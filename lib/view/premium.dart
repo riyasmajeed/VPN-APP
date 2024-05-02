@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:vpn/view/body.dart';
 
 class premiumusers extends StatefulWidget {
   const premiumusers({super.key});
@@ -48,7 +49,10 @@ class _premiumusersState extends State<premiumusers> {
                     ),
                     child: InkWell(
                       onTap: () {
-                        print("object");
+                         Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => Body()),
+        );
                       },
                       child: Center(child: Icon(Icons.arrow_back_ios, color: Color.fromARGB(255, 1, 0, 0))),
                     ),
